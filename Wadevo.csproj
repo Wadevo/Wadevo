@@ -1,0 +1,101 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Wadevo</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>Assets\Logos\WadevoLogo.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Modules\NowPlaying\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Fonts\moonhouse.ttf" />
+    <None Remove="Assets\Logos\large wadevo logo.png" />
+    <None Remove="Assets\Logos\small wadevo logo.png" />
+    <None Remove="Assets\Logos\WadevoLogo.png" />
+    <None Remove="Assets\Titles\SupportWadevoTitle.png" />
+    <None Remove="Assets\Titles\ConnectionsTitle.png" />
+    <None Remove="Assets\Titles\GettingStartedTitle.png" />
+    <None Remove="Assets\Titles\DashboardTitle.png" />
+    <None Remove="Assets\Titles\SettingsTitle.png" />
+    <None Remove="Assets\Titles\OverlayEngineTitle.png" />
+    <None Remove="Assets\Titles\TheBoothTitle.png" />
+    <None Remove="Assets\Titles\AlertsTitle.png" />
+    <None Remove="Assets\Titles\AssetLibraryTitle.png" />
+    <None Remove="Assets\Titles\OverlayDesignerTitle.png" />
+    <None Remove="Assets\Titles\GifsTitle.png" />
+    <None Remove="Assets\Titles\SongRequestsTitle.png" />
+    <None Remove="Assets\Titles\CommandsTitle.png" />
+    <None Remove="Assets\Titles\SoundboardTitle.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Fonts\moonhouse.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\large wadevo logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\small wadevo logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\WadevoLogo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Titles\SupportWadevoTitle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Titles\ConnectionsTitle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Titles\GettingStartedTitle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Titles\DashboardTitle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Titles\SettingsTitle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Titles\OverlayEngineTitle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Titles\TheBoothTitle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Titles\AlertsTitle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Titles\AssetLibraryTitle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Titles\OverlayDesignerTitle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Titles\GifsTitle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Titles\SongRequestsTitle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Titles\CommandsTitle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Titles\SoundboardTitle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="SocketIOClient" Version="4.0.4" />
+    <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
